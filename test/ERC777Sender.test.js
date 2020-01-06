@@ -1,4 +1,4 @@
-const { singletons, BN, expectEvent } = require('openzeppelin-solidity/test-helpers');
+const { singletons, BN, expectEvent } = require('@openzeppelin/test-helpers');
 
 const ERC777Token = artifacts.require('ERC777Token');
 const ERC777Sender = artifacts.require('ERC777Sender');
@@ -22,7 +22,7 @@ contract('ERC777Sender', function ([_, registryFunder, creator, holder, recipien
     await this.erc1820.setInterfaceImplementer(holder, tokensSenderInterfaceHash, this.sender.address, { from: holder });
 
     const receipt = await this.token.send(recipient, amount, data, { from: holder });
-    await expectEvent.inTransaction(receipt.tx, ERC777Sender, 'DoneStuff', { from: holder, to: recipient, amount: amount, userData: data, operatorData: null });
+    await expectEvent.inTransaction(receipt.tx, ERC777Sender, 'TokensSent', { from: holder, to: recipient, amount: amount, userData: data, operatorData: null });
 
     const recipientBalance = await this.token.balanceOf(recipient);
     recipientBalance.should.be.bignumber.equal(amount);

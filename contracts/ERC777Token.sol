@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-import "openzeppelin-solidity/contracts/access/Roles.sol";
-import "openzeppelin-solidity/contracts/token/ERC777/ERC777.sol";
+import "@openzeppelin/contracts/access/Roles.sol";
+import "@openzeppelin/contracts/token/ERC777/ERC777.sol";
 
 
 /**
@@ -9,7 +9,7 @@ import "openzeppelin-solidity/contracts/token/ERC777/ERC777.sol";
  * @dev Simple ERC777 Token trial, where tokens should only get minted/burned by known EOA.
  * `ERC20` or `ERC777` functions.
  */
-contract ERC777Token is ERC777 {
+contract ERC777Token is ERC777, MinterRole {
 
     using Roles for Roles.Role;
 
@@ -70,26 +70,5 @@ contract ERC777Token is ERC777 {
     function removeBurner(address addressToRemove) public onlyAdmins {
         require(_burners.has(addressToRemove),"Specified address is not a burner.");
         _burners.remove(addressToRemove);
-    }
-
-    function mint(address operator,
-        address account,
-        uint256 amount,
-        bytes memory userData,
-        bytes memory operatorData)
-    public onlyMinters {
-        super._mint(operator, account, amount, userData, operatorData);
-    }
-
-    function burn(uint256 amount, bytes calldata data)
-    external onlyBurners {
-        //why is this not possible?
-        //super.burn(amount, calldata);
-        //send(_admins[0], amount, data);
-    }
-
-    function operatorBurn(address account, uint256 amount, bytes calldata data, bytes calldata operatorData)
-    external onlyBurners {
-        //super.operatorBurn(account, amount, data, operatorData);
     }
 }
