@@ -5,6 +5,9 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
 
 require('dotenv').config()
+
+const mnemonic = process.env.MNEMONIC
+
 module.exports = {
   networks: {
     development: {
@@ -14,9 +17,16 @@ module.exports = {
      },
 
     rinkeby: {
-      provider: ()=>  new HDWalletProvider( process.env.MNENOMIC, "https://rinkeby.infura.io/v3/"+process.env.INFURA_API_KEY),
+      provider: () =>  new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/"+process.env.INFURA_API_KEY),
       network_id: 4,
       gas: 4612388 // Gas limit used for deploys
+    },
+
+    mainnet: {
+      provider: () =>  new HDWalletProvider(mnemonic, "https://mainnet.infura.io/v3/"+process.env.INFURA_API_KEY),
+      network_id: 1,
+      gas: 4612388, // Gas limit used for deploys
+      //gasPrice: xxx
     }
   },
   compilers: {

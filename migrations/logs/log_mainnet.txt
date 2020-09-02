@@ -1,0 +1,205 @@
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\SupervisedERC777Token.sol
+> Compiling .\contracts\SupervisedToken.sol
+> Compilation warnings encountered:
+
+> Artifacts written to C:\Users\matthieu\source\trakx\erc777-wrappers\build\contracts
+> Compiled successfully using:
+   - solc: 0.5.5+commit.47a71e8f.Emscripten.clang
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'mainnet-fork'
+> Network id:      1
+> Block gas limit: 0xbea3f5
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        10781268
+   > block timestamp:     1599042360
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.073904765217387846
+   > gas used:            246393
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000492786 ETH
+
+   -------------------------------------
+   > Total cost:         0.000492786 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'l1btc15gol'
+   ----------------------
+   > block number:        10781270
+   > block timestamp:     1599042393
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.064973475217387846
+   > gas used:            4438622
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008877244 ETH
+
+	> deployed at:         0xBa8d63d6fCa08D91F5CE5F386C31761e279477ab
+
+   Deploying 'l1btceth'
+   --------------------
+   > block number:        10781271
+   > block timestamp:     1599042438
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.056096999217387846
+   > gas used:            4438238
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876476 ETH
+
+	> deployed at:         0xE3BAA958E07687d77A7CcfE252e7334574f3DDfC
+
+   Deploying 'l1cex'
+   -----------------
+   > block number:        10781272
+   > block timestamp:     1599042474
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.047220651217387846
+   > gas used:            4438174
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876348 ETH
+
+	> deployed at:         0x7038F120a8aA22aE930414a822c0Fe8a82a16c36
+
+   Deploying 'l1dex'
+   -----------------
+   > block number:        10781273
+   > block timestamp:     1599042512
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.038344047217387846
+   > gas used:            4438302
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876604 ETH
+
+	> deployed at:         0x8f14F39f00c84444Ad66e4237755676c5058631d
+
+   Deploying 'l1div'
+   -----------------
+   > block number:        10781274
+   > block timestamp:     1599042551
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.029468979217387846
+   > gas used:            4437534
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008875068 ETH
+
+	> deployed at:         0x9b65617f1F5b40E129433A78Bab41616e508bAA9
+
+   Deploying 'l1len'
+   -----------------
+   > block number:        10781275
+   > block timestamp:     1599042588
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.020594551217387846
+   > gas used:            4437214
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008874428 ETH
+
+	> deployed at:         0x5070CB88655dfDd07f366Ab945Ea3A3e13E1e6ea
+
+   Deploying 'l1mc10defi'
+   ----------------------
+   > block number:        10781276
+   > block timestamp:     1599042624
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.011718843217387846
+   > gas used:            4437854
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008875708 ETH
+
+	> deployed at:         0x514235e1D184631c00706DeFaA70fB953841F826
+
+   Deploying 'l1mc10erc'
+   ---------------------
+   > block number:        10781277
+   > block timestamp:     1599042666
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.002842751217387846
+   > gas used:            4438046
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876092 ETH
+
+	> deployed at:         0x4304C3ee1FD192dDeaA1925814FEfa46acCC1D50
+
+   Deploying 'l1vol15btc'
+   ----------------------
+   > block number:        10781278
+   > block timestamp:     1599042705
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.993966275217387846
+   > gas used:            4438238
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876476 ETH
+
+	> deployed at:         0xEDeAb41D483190e58325B2D90F9BffD17bc42406
+
+   Deploying 'l1vol20be'
+   ---------------------
+   > block number:        10781279
+   > block timestamp:     1599042746
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.985089159217387846
+   > gas used:            4438558
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008877116 ETH
+
+	> deployed at:         0x428ad6FE529f4be8bA449F1623f82A2aFB4ca7e3
+   -------------------------------------
+   > Total cost:          0.08876156 ETH
+
+
+Summary
+=======
+> Total deployments:   11
+> Final cost:          0.089254346 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'mainnet'
+> Network id:      1
+> Block gas limit: 0xbe4462
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+
+
+Error:  *** Deployment Failed ***
+
+"Migrations" -- transaction underpriced.
+
+    at C:\ProgramData\nvm\v10.17.0\node_modules\truffle\build\webpack:\packages\deployer\src\deployment.js:364:1
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Truffle v5.1.6 (core: 5.1.6)
+Node v10.17.0

@@ -4,7 +4,7 @@ import "@openzeppelin/contracts/token/ERC777/ERC777.sol";
 import "./SupervisedToken.sol";
 
 /**
- * @title Simple777Token
+ * @title SupervisedERC777Token
  * @dev Very simple supervised ERC777 Token example, where no tokens are pre-assigned.
  * Tokens need to be minted by an authorised address, and can then be circulated as usual
  * through classic `ERC20` or `ERC777` functions.
