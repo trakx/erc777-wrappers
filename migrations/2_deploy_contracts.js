@@ -8,6 +8,9 @@ const l1mc10defi = artifacts.require("l1mc10defi");
 const l1mc10erc = artifacts.require("l1mc10erc");
 const l1vol15btc = artifacts.require("l1vol15btc");
 const l1vol20be = artifacts.require("l1vol20be");
+const l1mc10cryp = artifacts.require("l1mc10cryp");
+const l1mo03cryp = artifacts.require("l1mo03cryp");
+const kUSDc = artifacts.require("kUSDc");
 
 const contractsToDeploy = [
   l1btc15gol,
@@ -20,6 +23,9 @@ const contractsToDeploy = [
   l1mc10erc,
   l1vol15btc,
   l1vol20be,
+  l1mc10cryp,
+  l1mo03cryp,
+  kUSDc
 ]
 
 require('@openzeppelin/test-helpers/configure')({ provider: web3.currentProvider, environment: 'truffle' });

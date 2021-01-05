@@ -22,6 +22,17 @@ module.exports = {
       gas: 4612388 // Gas limit used for deploys
     },
 
+    kovan: {
+      provider: function(){
+        return new HDWalletProvider(
+          mnemonic, "https://kovan.infura.io/v3/"+process.env.INFURA_API_KEY
+        )
+      },
+      gas: 5000000,
+      //gasPrice: 25000000000,
+      network_id: 42
+    },
+
     mainnet: {
       provider: () =>  new HDWalletProvider(mnemonic, "https://mainnet.infura.io/v3/"+process.env.INFURA_API_KEY),
       network_id: 1,

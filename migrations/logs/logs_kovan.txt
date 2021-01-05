@@ -1,0 +1,434 @@
+C:\Users\matthieu\source\trakx\erc777-wrappers>truffle migrate --network kovan
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\SupervisedERC777Token.sol
+> Compiling .\contracts\SupervisedToken.sol
+> Compiling .\contracts\wrappers\kUSDc.sol
+> Compilation warnings encountered:
+
+> Artifacts written to C:\Users\matthieu\source\trakx\erc777-wrappers\build\contracts
+> Compiled successfully using:
+   - solc: 0.5.5+commit.47a71e8f.Emscripten.clang
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'kovan-fork'
+> Network id:      42
+> Block gas limit: 0xbe8c72
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'l1btc15gol'
+   ----------------------
+   > block number:        22891484
+   > block timestamp:     1609838549
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.032166876
+   > gas used:            4438622
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008877244 ETH
+
+        > deployed at:         0x9985206aA20e02C64c2d4FA1297F843C35d4B715
+
+   Deploying 'l1btceth'
+   --------------------
+   > block number:        22891485
+   > block timestamp:     1609838573
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.0232904
+   > gas used:            4438238
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876476 ETH
+
+        > deployed at:         0x79D71442eca1aDeBb6C06E5318C1a718b47442B0
+
+   Deploying 'l1cex'
+   -----------------
+   > block number:        22891486
+   > block timestamp:     1609838594
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.014414052
+   > gas used:            4438174
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876348 ETH
+
+        > deployed at:         0xFD47A8CA27f45C422E43120110A7113159135409
+
+   Deploying 'l1dex'
+   -----------------
+   > block number:        22891487
+   > block timestamp:     1609838614
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.005537448
+   > gas used:            4438302
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876604 ETH
+
+        > deployed at:         0xB91fA7AA97e37e73b182102Ca0E815Ef49C058cC
+
+   Deploying 'l1div'
+   -----------------
+   > block number:        22891488
+   > block timestamp:     1609838634
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.99666238
+   > gas used:            4437534
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008875068 ETH
+
+        > deployed at:         0x0cA7580be899e215F22a63d2CB8F8B0a403C9Aa0
+
+   Deploying 'l1len'
+   -----------------
+   > block number:        22891489
+   > block timestamp:     1609838654
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.987787952
+   > gas used:            4437214
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008874428 ETH
+
+        > deployed at:         0x7feD70D416cb3F7e0fbaA03179EeF26DcD280450
+
+   Deploying 'l1mc10defi'
+   ----------------------
+   > block number:        22891490
+   > block timestamp:     1609838675
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.978912244
+   > gas used:            4437854
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008875708 ETH
+
+        > deployed at:         0x90387236cA0113FB58478518B7eAEEeb2019FaC6
+
+   Deploying 'l1mc10erc'
+   ---------------------
+   > block number:        22891491
+   > block timestamp:     1609838695
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.970036152
+   > gas used:            4438046
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876092 ETH
+
+        > deployed at:         0xA52801784A5fb97e347c90a8Ceb72D7E5b3410D5
+
+   Deploying 'l1vol15btc'
+   ----------------------
+   > block number:        22891492
+   > block timestamp:     1609838716
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.961159676
+   > gas used:            4438238
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008876476 ETH
+
+        > deployed at:         0xe1CaFA7bE381d1572e7D50bB88Fb5C4cF25369A6
+
+   Deploying 'l1vol20be'
+   ---------------------
+   > block number:        22891493
+   > block timestamp:     1609838736
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.95228256
+   > gas used:            4438558
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008877116 ETH
+
+        > deployed at:         0xDc21f9bA7e0A801CF173Ff337846a8e0D159F5A0
+
+   Deploying 'l1mc10cryp'
+   ----------------------
+   > block number:        22891494
+   > block timestamp:     1609838757
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.943406596
+   > gas used:            4437982
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008875964 ETH
+
+        > deployed at:         0x027e54bba2E4B772CC266B540344b2366D972d94
+
+   Deploying 'l1mo03cryp'
+   ----------------------
+   > block number:        22891495
+   > block timestamp:     1609838777
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.934530376
+   > gas used:            4438110
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00887622 ETH
+
+        > deployed at:         0x7B7927f5Ce9dBe7b640cC05BB603769aa71e66fc
+
+   Deploying 'kUSDc'
+   -----------------
+   > block number:        22891496
+   > block timestamp:     1609838797
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.925654668
+   > gas used:            4437854
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008875708 ETH
+
+        > deployed at:         0xE539a16d8eE1C25b0ea45ccBFd260AbB3FCc8f2a
+   -------------------------------------
+   > Total cost:         0.115389452 ETH
+
+
+Summary
+=======
+> Total deployments:   13
+> Final cost:          0.115389452 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'kovan'
+> Network id:      42
+> Block gas limit: 0xbebc20
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'l1btc15gol'
+   ----------------------
+   > transaction hash:    0x17b59a2548eb67bafe45e5e53d6191c5071da7645e51eb315a5397310dc548e0
+   > Blocks: 1            Seconds: 8
+   > contract address:    0x9985206aA20e02C64c2d4FA1297F843C35d4B715
+   > block number:        22891528
+   > block timestamp:     1609838832
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.879016803
+   > gas used:            3667962
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335924 ETH
+
+        > deployed at:         0x9985206aA20e02C64c2d4FA1297F843C35d4B715
+
+   Deploying 'l1btceth'
+   --------------------
+   > transaction hash:    0xf30d81b47bd746905b7a2dc9ef624415eaacf771625b85e1bfc502b42fcf648b
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x79D71442eca1aDeBb6C06E5318C1a718b47442B0
+   > block number:        22891529
+   > block timestamp:     1609838840
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.805659003
+   > gas used:            3667890
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0733578 ETH
+
+        > deployed at:         0x79D71442eca1aDeBb6C06E5318C1a718b47442B0
+
+   Deploying 'l1cex'
+   -----------------
+   > transaction hash:    0xb601c8dd9d421fd27801e6c7189a20eba0af82873d4ce692bd130c5d3c808614
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xFD47A8CA27f45C422E43120110A7113159135409
+   > block number:        22891531
+   > block timestamp:     1609838852
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.732301443
+   > gas used:            3667878
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335756 ETH
+
+        > deployed at:         0xFD47A8CA27f45C422E43120110A7113159135409
+
+   Deploying 'l1dex'
+   -----------------
+   > transaction hash:    0xae8895e57f600671a44fb291871b4651cd4d3c8563a5b18c6b544923fe68f9ff
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xB91fA7AA97e37e73b182102Ca0E815Ef49C058cC
+   > block number:        22891532
+   > block timestamp:     1609838860
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.658943403
+   > gas used:            3667902
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335804 ETH
+
+        > deployed at:         0xB91fA7AA97e37e73b182102Ca0E815Ef49C058cC
+
+   Deploying 'l1div'
+   -----------------
+   > transaction hash:    0x2aacf9c93870bdd1427ca335af02cd5e4028e42da8dedc339e26a5341ad625b6
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x0cA7580be899e215F22a63d2CB8F8B0a403C9Aa0
+   > block number:        22891534
+   > block timestamp:     1609838872
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.585588243
+   > gas used:            3667758
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335516 ETH
+
+        > deployed at:         0x0cA7580be899e215F22a63d2CB8F8B0a403C9Aa0
+
+   Deploying 'l1len'
+   -----------------
+   > transaction hash:    0xc61c8cd29f11663721a1684fa92a6634c13785616a1b56919c5c8d426385e839
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x7feD70D416cb3F7e0fbaA03179EeF26DcD280450
+   > block number:        22891535
+   > block timestamp:     1609838880
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.512234283
+   > gas used:            3667698
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335396 ETH
+
+        > deployed at:         0x7feD70D416cb3F7e0fbaA03179EeF26DcD280450
+
+   Deploying 'l1mc10defi'
+   ----------------------
+   > transaction hash:    0x3ee550b1b95f4b77478606d85bc465a07237f1091a00579e793166abed1f4889
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x90387236cA0113FB58478518B7eAEEeb2019FaC6
+   > block number:        22891537
+   > block timestamp:     1609838892
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.438877923
+   > gas used:            3667818
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335636 ETH
+
+        > deployed at:         0x90387236cA0113FB58478518B7eAEEeb2019FaC6
+
+   Deploying 'l1mc10erc'
+   ---------------------
+   > transaction hash:    0xffefacddf1a18cf744bd79b2f931a207c564d3128991640eda4f68252f11e851
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xA52801784A5fb97e347c90a8Ceb72D7E5b3410D5
+   > block number:        22891538
+   > block timestamp:     1609838900
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.365520843
+   > gas used:            3667854
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335708 ETH
+
+        > deployed at:         0xA52801784A5fb97e347c90a8Ceb72D7E5b3410D5
+
+   Deploying 'l1vol15btc'
+   ----------------------
+   > transaction hash:    0x6a32fe5efc8cd678094d7889d3ebf7c0b0ac9c2a50622d7e023b5ce9466af932
+   > Blocks: 0            Seconds: 4
+   > contract address:    0xe1CaFA7bE381d1572e7D50bB88Fb5C4cF25369A6
+   > block number:        22891540
+   > block timestamp:     1609838912
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.292163043
+   > gas used:            3667890
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0733578 ETH
+
+        > deployed at:         0xe1CaFA7bE381d1572e7D50bB88Fb5C4cF25369A6
+
+   Deploying 'l1vol20be'
+   ---------------------
+   > transaction hash:    0xc312b323fa795e5a420e1918f8335b437a2472a51783f623e14752a5fc444db5
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xDc21f9bA7e0A801CF173Ff337846a8e0D159F5A0
+   > block number:        22891542
+   > block timestamp:     1609838924
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.218804043
+   > gas used:            3667950
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.073359 ETH
+
+        > deployed at:         0xDc21f9bA7e0A801CF173Ff337846a8e0D159F5A0
+
+   Deploying 'l1mc10cryp'
+   ----------------------
+   > transaction hash:    0x2daa6b255081bd02e78ab40130c3dcf124856d92c2873757421b7fe9a98b9b46
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x027e54bba2E4B772CC266B540344b2366D972d94
+   > block number:        22891543
+   > block timestamp:     1609838932
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.145447203
+   > gas used:            3667842
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335684 ETH
+
+        > deployed at:         0x027e54bba2E4B772CC266B540344b2366D972d94
+
+   Deploying 'l1mo03cryp'
+   ----------------------
+   > transaction hash:    0xbd0ae2386199e410d19f01f39170ada6f61d331f1753793a5e35826f619ec1c2
+   > Blocks: 2            Seconds: 12
+   > contract address:    0x7B7927f5Ce9dBe7b640cC05BB603769aa71e66fc
+   > block number:        22891546
+   > block timestamp:     1609838952
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             1.072089883
+   > gas used:            3667866
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335732 ETH
+
+        > deployed at:         0x7B7927f5Ce9dBe7b640cC05BB603769aa71e66fc
+
+   Deploying 'kUSDc'
+   -----------------
+   > transaction hash:    0x13a94ce18ea3a5072900d4bbe4ce242d762b67ce5a8474d6d1df0bd4434a05bd
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xE539a16d8eE1C25b0ea45ccBFd260AbB3FCc8f2a
+   > block number:        22891547
+   > block timestamp:     1609838960
+   > account:             0x9DC57560Dc50cCFB7475B78B594B2444CFB7a1A5
+   > balance:             0.998733523
+   > gas used:            3667818
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07335636 ETH
+
+        > deployed at:         0xE539a16d8eE1C25b0ea45ccBFd260AbB3FCc8f2a
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.95364252 ETH
+
+
+Summary
+=======
+> Total deployments:   13
+> Final cost:          0.95364252 ETH
